@@ -187,6 +187,15 @@ const Menu = styled.ul`
       }
     }
   }
+  @media (max-width: 800px) {
+    justify-content: space-between;
+    li:nth-child(2),
+    li:nth-child (3),
+    li:nth-child(4),
+    li:nth-child(5) {
+      display: none;
+    }
+  }
 `;
 
 const Social = styled.div`

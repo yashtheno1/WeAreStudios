@@ -9,7 +9,7 @@ export default function App() {
   return (
     <Wrapper>
       <Spline
-        className="spline"
+        className="Spline"
         scene="https://prod.spline.design/T1k1Q2EQaUIHZaQ3/scene.splinecode"
       />
       <Content>
@@ -65,7 +65,7 @@ const Wrapper = styled.div`
   overflow-x:hidden
 
 
-   .spline {
+   .Spline {
     position: absolute;
     margin: 0;
     top: 0;
